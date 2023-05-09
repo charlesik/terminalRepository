@@ -44,9 +44,9 @@ function AboutSide() {
         <div className="text-[#607B96] text-sm w-[250px] border-r h-[529px] border-[#1E2D3D]">
             <Title/>
             <div style={{display:display}} className="pl-4">
-                <Link to='/about/profileinfo' className="  pl-2"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> bio</Link>
-                <div className="  pl-2"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> interests</div>
-                <div className="  pl-2"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> education</div>
+                <Link to='/about/profileinfo' className="  pl-2 block"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> bio</Link>
+                <Link to='/about/interests' className="  pl-2 block"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> interests</Link>
+                <Link to='/about/education' className="  pl-2 block"><img src="/file.png" className="w-[14px] h-[13px] inline" alt="" /> education</Link>
             </div>
             <AboutContact/>
         </div>

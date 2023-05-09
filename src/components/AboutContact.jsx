@@ -41,7 +41,7 @@ function AboutContact() {
         <div className="">
             <Title/>
             <div style={{display:display}}>
-                <div className="  pl-2"><img src="/mail-icon.png" className="w-[14px] h-[13px] inline" alt="" />charlesik@gmail.com</div>
+                <div className="  pl-2"><img src="/mail-icon.png" className="w-[14px] h-[13px] inline" alt="" />charlesikilo@gmail.com</div>
                 <div className="  pl-2"><img src="/phone-icon.png" className="w-[14px] h-[13px] inline" alt="" />+2348106832108</div>
                 <div className="  pl-2"><img src="/phone-icon.png" className="w-[14px] h-[13px] inline" alt="" />+2349012845491</div>
             </div>
