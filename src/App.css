@@ -1,3 +1,10 @@
-div .active{
-    border-bottom: 1px solid #FEA55F ;
+div .active {
+  border-bottom: 1px solid #fea55f;
+}
+.projects::-webkit-scrollbar {
+  background-color: #011627;
+  border: 1px solid #1e2d3d;
+}
+.projects::-webkit-scrollbar-thumb{
+    background: #607B96;
 }

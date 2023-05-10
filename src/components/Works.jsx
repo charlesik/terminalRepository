@@ -17,13 +17,6 @@ function Works() {
         tech: "Next JS",
       },
       {
-        title: "Food Cafe",
-        description: "Restaurant Mockup",
-        imgUrl: "/foodcafe.png",
-        link: "https://github.com/charlesik/food-cafe-react-js-.git",
-        tech: "ReactJS",
-      },
-      {
         title: "TestApp",
         description: "Movies Data",
         imgUrl: "/movies.png",
@@ -44,6 +37,13 @@ function Works() {
         link: "https://vulcantechng.netlify.app/",
         tech: "JavaScript",
       },
+      {
+        title: "Food Cafe",
+        description: "Restaurant Mockup",
+        imgUrl: "/foodcafe.png",
+        link: "https://github.com/charlesik/food-cafe-react-js-.git",
+        tech: "ReactJS",
+      },
 
       //   {
       //     title: "Natasha Ilo Foundation",
@@ -62,10 +62,10 @@ function Works() {
     ];
     const projectList=projects.map((project,index)=>{
         return(
-            <div key={index}>
-            <p className="mb-2">project 1 // {project.title}</p>
+            <div key={index} className="mr-6">
+            <p className="my-2">project {index+1} // {project.title}</p>
             <div className="border border-[#1E2D3D] w-[250px] h-[250px] rounded-lg">
-                <img src={project.imgUrl} className="h-[50%] rounded-t-lg" alt="" />
+                <img src={project.imgUrl} className="h-[50%] w-full rounded-t-lg" alt="" />
                 <div className="p-4 bg-[#011221] h-[50%] rounded-b-lg ">
                     <p className="mb-2">{project.description}</p>
                     <button className="bg-[#1C2B3A] h-[30px] text-white w-[90px] rounded-lg mt-2"><a href={project.link}>view-project</a></button>
@@ -75,12 +75,12 @@ function Works() {
         )
     })
     return (
-      <div className=" w-full text-[#607B96] h-full border">
-        <div className="border-r border-[#1E2D3D] w-32">
+      <div className=" w-full text-[#607B96] h-full ">
+        <div className="border-r border-[#1E2D3D] w-32 h-[5%]">
           projects
         </div>
-        <div className="flex justify-center border pt-10 border-[#1E2D3D] text-sm flex-wrap overflow-auto h-full">
-         {/* {projectList} */}
+        <div className="projects flex justify-center border-t pt-10 border-[#1E2D3D] text-sm flex-wrap overflow-auto h-[95%]">
+         {projectList}
         </div>
       </div>
     );
