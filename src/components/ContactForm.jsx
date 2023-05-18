@@ -16,12 +16,12 @@ function ContactForm() {
     const d =new Date()
 
     return (
-      <div className=" w-full text-[#607B96] h-full border ">
+      <div className=" w-full text-[#607B96] h-full ">
         <div className="border-b  border-[#1E2D3D]">
           <div className="border-r border-[#1E2D3D] w-32">contacts</div>
         </div>
-        <div className="flex">
-        <div className="text-sm flex pt-12 justify-center border w-[50%]">
+        <div className="flex h-[506px]">
+        <div className="text-sm flex pt-12 justify-center border-r border-[#1E2D3D] w-[50%]">
           <div className="">
             <form action="https://formsubmit.co/charlesikilo@gmail.com" method="POST">
               <label htmlFor="name">_name:</label>
@@ -58,7 +58,7 @@ function ContactForm() {
             </form>
           </div>
         </div>
-        <div className="border border-red-600 pl-10 pt-10 w-[50%] text-sm">
+        <div className=" pl-10 pt-10 w-[50%] text-sm">
                 <p className="text-[#5565E8]"> <span className="mr-4 text-[#607B96]">1</span>    <span className="text-[#C98BDF]">const</span> button <span className="text-[#607B96]">=</span> document.querySelector <span className="text-[#607B96]"> &#40;</span> <span className="text-[#FEA55F]">&#34;#sendbtn&#34;</span> <span className="text-[#607B96]">&#41; ;</span></p>
                 <p className="text-[#5565E8]"> <span className="mr-4 text-[#607B96]">2</span>   </p>
                 <p className="text-[#5565E8]"> <span className="mr-4 text-[#607B96]">3</span>   <span className="text-[#C98BDF]">const</span> message <span className="text-[#607B96]">=</span> <span className="text-[#607B96]"> &#123;</span> </p>
